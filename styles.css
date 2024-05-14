@@ -376,6 +376,7 @@ profile-photo .img {
 @media only screen and (min-width: 1000px) and (max-width: 1200px) and (font-family: sans-serif){
   .container {
     width: 970px;
+    font-family: sans-serif;
   }
 }
 
@@ -453,8 +454,8 @@ profile-photo .img {
     font-family: sans-serif;
   }
   .project {
+    font-family: sans-serif;
     flex-basis: 100%;
     margin-bottom: 30px;
-    font-family: sans-serif;
   }
 }
