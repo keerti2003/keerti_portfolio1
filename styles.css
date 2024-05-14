@@ -376,6 +376,7 @@ profile-photo .img {
 @media only screen and (min-width: 1000px) and (max-width: 1200px) and (font-family: sans-serif){
   .container {
     width: 970px;
+    justify-content: space-between;
     font-family: sans-serif;
   }
 }
@@ -384,10 +385,12 @@ profile-photo .img {
   .FirstElement {
     font-family: sans-serif;
     flex-direction: column;
+    justify-content: space-between;
     padding-top: 2rem;
   }
   .profile-text {
     font-family: sans-serif;
+    justify-content: space-between;
     padding: 40px 0px;
   }
 }
@@ -396,6 +399,7 @@ profile-photo .img {
 @media only screen and (min-width: 768px) and (max-width: 999px) {
   .container {
     width: 750px;
+    justify-content: space-between;
     font-family: sans-serif;
   }
 }
@@ -404,33 +408,40 @@ profile-photo .img {
 @media only screen and (max-width: 767px) {
   .container {
     width: 350px;
+    justify-content: space-between;
     font-family: sans-serif;
   }
 
   .header .menu_icon {
     font-family: sans-serif;
+    justify-content: space-between;
     display: block;
   }
   .header ul {
     display: none;
+    justify-content: space-between;
     font-family: sans-serif;
   }
   .header i {
     color: #e5e5e5;
+    justify-content: space-between;
     font-family: sans-serif;
   }
 
   .profile-text {
     width: 350px;
+    justify-content: space-between;
     font-family: sans-serif;
   }
   .FirstElement .profile-text p {
     text-align: justify;
+    justify-content: space-between;
     font-family: sans-serif;
   }
   .about {
     flex-direction: column;
     flex-basis: 100%;
+    justify-content: space-between;
     margin-bottom: 30px;
     font-family: sans-serif;
   }
@@ -438,12 +449,14 @@ profile-photo .img {
     width: 100%;
     margin-top: 30px;
     font-family: sans-serif;
+    justify-content: space-between;
   }
   .education-content .row {
     flex-direction: column;
     height: auto;
     margin-bottom: 50px;
     font-family: sans-serif;
+    justify-content: space-between;
   }
 
   .education-content .row .education,
@@ -452,10 +465,12 @@ profile-photo .img {
     max-width: 100%;
     margin-top: 30px;
     font-family: sans-serif;
+    justify-content: space-between;
   }
   .project {
     font-family: sans-serif;
     flex-basis: 100%;
     margin-bottom: 30px;
+    justify-content: space-between;
   }
 }
