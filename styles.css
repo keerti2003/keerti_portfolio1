@@ -233,8 +233,7 @@ profile-photo .img {
 .education-content .row {
   display: flex;
   border-radius: 5px;
-  height: 400px;
-  margin-bottom: 250px;
+  margin-bottom: 15px;
 }
 
 .education-content .title {
@@ -272,7 +271,7 @@ profile-photo .img {
 .education-content .row .internship .timeline-item {
   position: relative;
   padding-left: 37px;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
 }
 .education-content .row .timeline-item:last-child {
   padding-bottom: 0;
@@ -281,7 +280,7 @@ profile-photo .img {
   content: "";
   width: 1px;
   position: absolute;
-  height: 100%;
+  height: calc(100% - 5px);
   left: 7px;
   top: 0;
   background-color: #074e84;
@@ -373,7 +372,7 @@ profile-photo .img {
 /*------------------- Responsive Design on small screen -------------------*/
 
 /* Medium layout */
-@media only screen and (min-width: 1000px) and (max-width: 1200px) and (font-family: sans-serif){
+@media only screen and (min-width: 1000px) and (max-width: 1200px) and (font-family: sans-serif) {
   .container {
     width: 970px;
     justify-content: space-between;
